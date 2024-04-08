@@ -1,0 +1,42 @@
+#dropdownMenuButton {
+    font-size: 2vw;
+    margin-top: 10px;
+    color: burlywood;
+    background-color:darkolivegreen;
+    border-color: burlywood;
+  }
+
+#dropdownMenuButton:hover {
+    background-color:burlywood;
+    color: darkolivegreen;
+    border-color: darkolivegreen;
+}
+
+#root > div:nth-child(1) > div > div > div > div,
+#root > div:nth-child(1) > div > div > div > div > a,
+#root > div:nth-child(1) > div > div > div > div > div > a:nth-child(2),
+#root > div:nth-child(1) > div > div > div > div > div > a:nth-child(1) {
+    font-size: 2.3vw;
+    color: darkolivegreen;
+    background-color:burlywood;
+}
+
+#root > div.container > div > div:nth-child(3) > button {
+    background-color: burlywood;
+    font-size: 2vw;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #dropdownMenuButton,
+    #root > div:nth-child(1) > div > div > div > div,
+    #root > div:nth-child(1) > div > div > div > div > a,
+    #root > div:nth-child(1) > div > div > div > div > div > a:nth-child(2),
+    #root > div:nth-child(1) > div > div > div > div > div > a:nth-child(1) {
+        font-size: 1.5vw;
+    }
+
+    #root > div.container > div > div:nth-child(3) > button {
+        font-size: 1vw;
+    }
+}

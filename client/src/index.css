@@ -1,0 +1,15 @@
+/* App Styles */
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+  /* Body Styles */
+  body {
+    background: url(./assets/images/bgImage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(217, 219, 221);
+    margin: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, Sans-Serif;
+  }
+  

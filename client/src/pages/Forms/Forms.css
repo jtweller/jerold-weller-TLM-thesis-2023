@@ -1,0 +1,51 @@
+/* Form Styles */
+.formWrap {
+    border: 2px solid burlywood;
+    width: 50vw;
+    margin-top: 50px;
+}
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > h1 {
+    color: darkolivegreen;
+    font-size: 3.5vw;
+}
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > h3,
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > p {
+    font-size: 2vw;
+}
+
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > form > input {
+    font-size: 2.5vw;
+}
+
+
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > form > button {
+    border-color: burlywood;
+    color:  burlywood;
+    background-color: darkolivegreen;
+}
+
+#root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > p > a{
+    color: burlywood;
+}
+
+    /* Form Styles @ over 1024 */
+    @media only screen and (min-width: 1024px) {
+    
+    .formWrap {
+        width: 40vw;
+        margin: 0;
+    }
+    #root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > h1 {
+        color: darkolivegreen;
+        font-size: 3.5vw;
+    }
+
+    #root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > h3,
+    #root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > p {
+        font-size: 1.5vw;
+    }
+
+    #root > div.formWrap.text-center.rounded-2.pb-2.mx-auto > form > input {
+        font-size: 1vw;
+    }
+}

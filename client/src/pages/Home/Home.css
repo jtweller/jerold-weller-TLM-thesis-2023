@@ -1,0 +1,101 @@
+.body {
+    background: url(./Home.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(217, 219, 221);
+    margin: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, Sans-Serif;
+  }
+
+  .title {
+    font-size: 5.4vw;
+    text-indent: 30px;
+    margin-top: 60px;
+    color: darkolivegreen;
+  }
+  
+  .subTitle {
+    font-size: 2.7vw;
+    text-indent: 56px;
+    margin-top: -10px;
+    color: burlywood;
+  }
+
+  .btnWrap > button {
+    font-size: 2vw;
+    width: 15vw;
+    margin-left: 65px;
+    border-color: burlywood;
+    color: darkolivegreen;
+  }
+
+  .btnWrap > button:hover {
+    color: burlywood;
+    background-color:darkolivegreen;
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    .title {
+      text-indent: 20px;
+      position: relative;
+      top: -30px;
+    }
+    
+    .subTitle {
+      text-indent: 30px;
+      position: relative;
+      top: -40px;
+    }
+  
+    .btnWrap > button {
+      margin-left: 40px;
+      position: relative;
+      top: -40px;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    
+    .title {
+      text-indent: 40px;
+    }
+    
+    .subTitle {
+      text-indent: 70px;
+    }
+  
+    .btnWrap > button {
+      margin-left: 95px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    
+    .title {
+      text-indent: 20px;
+    }
+    
+    .subTitle {
+      text-indent: 45px;
+    }
+  
+    .btnWrap > button {
+      margin-left: 85px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+  
+  .title {
+    text-indent: 40px;
+  }
+  
+  .subTitle {
+    text-indent: 100px;
+  }
+
+  .btnWrap > button {
+    margin-left: 175px;
+  }
+}

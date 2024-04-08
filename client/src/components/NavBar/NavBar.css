@@ -1,0 +1,62 @@
+.navLogo {
+    position: relative;
+    left: 5px;
+    width: 25vw;
+}
+
+.moreInfo > button {
+    font-size: 2vw;
+    width: 24vw;
+    position: relative;
+    top: 60px;
+    right: 110px;
+    margin-bottom: 0;
+    border-color: white;
+    color: burlywood;
+}
+
+@media only screen and (min-width: 500px) {
+    
+    .moreInfo > button {
+        position: relative;
+        top: 80px;
+        right: 160px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .moreInfo > button {
+
+        top: 125px;
+        right: 230px;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .moreInfo > button {
+        font-size: 1.7vw;
+        position: relative;
+        right: 270px;
+        top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navLogo {
+        left: 65px;
+        width: 12vw;
+    }    
+    .moreInfo > button {
+        font-size: 1.2vw;
+        width: 11vw;
+        right: 170px;
+        top: 140px;
+    }
+    #root > div.container {
+        margin: 0;
+    }
+  
+}
